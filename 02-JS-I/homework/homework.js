@@ -221,7 +221,7 @@ function esVocal(letra){
   //Escribe tu código aquí
   if(letra.length===1){
     let str = letra.toLowerCase();
-    if(str === 'a' | str === 'e' | str === 'i' | str === 'o' | str === 'u')
+    if(str === 'a' || str === 'e' || str === 'i' || str === 'o' || str === 'u')
       return "Es vocal";
     else 
       return "Dato incorrecto";
