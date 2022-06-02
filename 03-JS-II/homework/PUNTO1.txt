@@ -1,0 +1,32 @@
+1. En un archivo de texto separado que debes crear, 
+escribe explicaciones de los siguientes conceptos como 
+si se lo estuvieras explicando a un niño de 12 años. 
+Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `for`
+* `&&`, `||`, `!`
+
+El bucle for permite reiterar la ejecucion de un codigo tantas veces como se lo
+solicite o hasta cumplir alguna condicion necesaria para finalizar el bucle.
+Se debe establecer tres terminos, en el primero se debe declarar una variable que 
+llevara el control de iteracion.
+En el segundo termino establecer la condicion que permite la continuidad o no de la ejecucion 
+di codigo.
+Y por ultimo se debe establecer la instruccion que determina la forma 
+de incremento de la variable declarada en el primer termino.
+
+Operador logico &&, AND
+Es un operador logico que retorna un valor booleano, true o false.
+retorna true cuando ambas preposiciones sean vardaderas 2>1 && 3===3
+retorna false cuando una o ambas preposiciones sean falsas 
+
+Operador ||
+Operador logico que retorna valor booleano.
+Retorna True si una o ambas preposiciones son verdaderas.
+Retorna False si ambas preposiciones son falsas
+
+operador "!"
+operador logico que cambia el un valor booleano, es decir si una condicion/preposion es verdadera
+y aplicamos este operador el valor de la condicion cambia a falso.
+(3>2) = true, 
+!(3>2) = false, si aplicamos el operador de negacion el resultado cambia.
