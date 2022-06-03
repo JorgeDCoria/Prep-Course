@@ -1,0 +1,22 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes 
+conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a 
+descubrir rápidamente cualquier agujero en tu comprensión.
+
+* Objetos
+    Es un tipo de dato en el cual podemos representar de forma abstracta un objeto del mundo real.
+* Propiedades
+    Es aquello que caracteriza a un objeto, por ejemplo una persona tiene propiedades como nombre, apellido,
+    etc.
+
+* Métodos
+    Son las acciones que puede realizar un determinado objeto, por ej una personaa puede saltar, correr,
+    etc.
+
+* Bucle `for…in`
+    Es un bucle el cual permite hacer un recorrido por todas las propiedades de un objeto.
+
+* Notación de puntos vs notación de corchetes
+    La notacion por puento el identificar de la propiedad debe ser valida.
+    La notacion por cochetes puede contener variables que contengan el nombre de la propiedad valida,
+    tambien permite escribir el nombre de la propiedad entre comillas.
+    Una ventaja de notacion de corchetes es que se podria usar un mismo metodo para distintas propiedades
