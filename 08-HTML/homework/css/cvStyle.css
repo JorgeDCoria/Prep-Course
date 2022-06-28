@@ -1,0 +1,165 @@
+body {
+    background: url(../images/background1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 80%;
+   background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.container > header > h1 , p {
+
+    text-align: center;
+}
+
+.container-photo-name {
+    display: flex;
+    flex-direction: row;
+}
+.avatar {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+.avatar > img {
+    border-radius: 50%;
+    box-shadow: 0px 0px 35px 33px #000E30 ;
+
+}
+.container-photo-name > p {
+    padding-left: 1em;
+    font-size: 4em;
+    font-weight: bold;
+    color: #ff9500;
+}
+
+.descripcion {
+    padding: 4em;
+}
+.descripcion > h1 {
+    text-align: center;
+}
+.descripcion > p {
+    text-align: justify;
+    font-size: 1.2em;
+}
+.container-a {
+    display: flex;
+}
+
+/* ##### contact section ####*/
+aside {
+    width: 30%;
+    box-sizing: border-box;
+    position: relative;
+    background: #FF9600;
+    border-radius: 25px;
+    padding-top: 2em;
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+}
+.panel-contacto {
+    position: sticky;
+    top: 0;
+}
+.panel-contacto  > h1 {
+    text-align: center;
+}
+.panel-contacto  > div {
+    display: flex;
+    align-items: center;
+    padding-left: 2em; 
+    padding: 1em;
+}
+.panel-contacto > div > span {
+    padding-left: 2em;
+}
+section {
+   width: 60%;
+   box-sizing: border-box;
+   font-size: 1.2em;
+   margin-left: 5%;
+   
+    
+}
+
+/* #### educacion # #### */
+.background-education {
+    background: url(../images/education.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-education-lvl-1 {
+    background: rgba(0, 0, 0, 0.6);
+    padding-bottom: 1.3em;
+}
+.background-education-lvl-1 > h1 {
+    padding-left: 1em;
+    padding-top: 1em;
+}
+.background-education-lvl-1 > div {
+    text-align: left;
+    padding-left: 2em;
+}
+
+/* #### work section ###*/
+.experiencia-laboral, .skill {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 1em;
+    
+}
+
+.experiencia-img{
+    width: 30%;
+    background: url(../images/experiencia.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 50vh;
+    order: 2;
+ }   
+
+.experiencia-info {
+    width: 70%;
+    padding: 1em;
+    order: 1;
+}
+.experiencia-info > p {
+    text-align: justify;
+}
+
+/* ###### skill section ####*/
+.skill-img {
+    background: url(../images/skills.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+    width: 30%;
+}
+
+.skill-info {
+    width: 70%;
+    padding: 1em;
+}
+.henry-info{
+    text-align: center;
+    padding: 3em;
+}
+.henry-info > h1 {
+    font-size: 4em;
+    color: #ff9500;
+}
+.henry-info > p {
+    font-size: 1.2em;
+    text-align: justify;
+}
